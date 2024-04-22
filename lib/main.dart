@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       builder: (context, _) {
         return MaterialApp(
-          title: 'Provider example',
+          title: 'Provider example changed',
           onGenerateRoute: onGenerateRoutes,
           initialRoute: AppRouter.newsListScreen,
           navigatorKey: navigationStateKey,
